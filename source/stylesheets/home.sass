@@ -1,0 +1,28 @@
+@import variables
+
+.personal-info
+  margin: 60px auto 0px auto
+  text-align: center
+
+  .photo
+    margin: 0px auto 20px
+
+  .profile-pic
+    width: 300px
+
+  .connections
+    padding: 0px
+    li
+      display: inline
+      margin-right: 15px
+
+
+@include respond(medium)
+  .personal-info
+    margin: 60px auto 0px auto
+    .profile-pic
+      width: 250px
+    .connections
+      li
+        display: block
+        margin: 15px 0px 0px 0px

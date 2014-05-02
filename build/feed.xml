@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lucy Bain</title>
+  <id>http://lucybain.com/blog</id>
+  <link href="http://lucybain.com/blog"/>
+  <link href="http://lucybain.com/feed.xml" rel="self"/>
+  <updated>2014-03-13T00:00:00Z</updated>
+  <author>
+    <name>Lucy Bain</name>
+  </author>
+  <entry>
+    <title>Next up: Front end</title>
+    <link rel="alternate" href="http://lucybain.com/blog/2014/front-end/"/>
+    <id>http://lucybain.com/blog/2014/front-end/</id>
+    <published>2014-03-13T00:00:00Z</published>
+    <updated>2014-03-27T10:32:57+11:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  For the next 12-14 months I'd like to learn front end dev.
+&lt;/p&gt;
+&lt;p&gt;
+  I've been doing Rails for a little over 2 years now, and almost all of my training and experience has been heavily back end oriented. Pretty much everything I learned at uni was for back end languages and processes. I took all the web courses that were offered, but they didn't focus heavily on JS or CSS - although they did expose me to those concepts. Certainly everything I've done since uni has been back end (just a bit of Python, and then Ruby on Rails). I've learned heaps from this - MVC architecture, better programming design principles, some pretty awesome tricks Ruby can do, and a bunch more.
+&lt;/p&gt;
+&lt;p&gt;
+  But I'd like to try my hand at some front end development. I think there's something satisfying to knowing people are seeing and interacting with what you're building - that happens more for front end. There's also a lot to learn about user interface design, and how to think like a user. It's also something that's definitely missing from my abilities. I always get a bit nervous when I need to do some front end tweaks, and any CSS change takes way longer than it really needs to. I'd like to move a bit closer to being "full stack" and not just boxing myself in to RoR back end.
+&lt;/p&gt;
+&lt;p&gt;
+  So. What to do? I'm going to finish the &lt;a href="https://www.udacity.com/course/cs101"&gt;Python 101&lt;/a&gt; &lt;a href="/resources/udacity-python-study-group/"&gt;study group&lt;/a&gt; I organized. Just keeping up with the lectures for this class is taking a fair bit of time in the evenings. But then after that I'm planning on focusing on JS, CSS, and HTML with the goal of getting a front end job after a year.
+&lt;/p&gt;
+&lt;p&gt;
+  I'm not really sure the best way to do that though. Some possible resources:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;a href="http://www.codecademy.com/"&gt;codecademy.com&lt;/a&gt; JS, jQuery, and HTML tracks
+  &lt;/li&gt;
+  &lt;li&gt;
+    Getting a &lt;a href="https://github.com/sydjs/sydjs/wiki/Available-mentors"&gt;mentor&lt;/a&gt; from the SydJS community
+  &lt;/li&gt;
+  &lt;li&gt;
+    Udacity's &lt;a href="https://www.udacity.com/course/cs256"&gt;Mobile Web Development&lt;/a&gt; to focus on responsive CSS
+  &lt;/li&gt;
+  &lt;li&gt;
+    Udacity's &lt;a href="https://www.udacity.com/course/cs255"&gt;HTML5 Game Development&lt;/a&gt; focusing on... HTML5
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="http://shop.oreilly.com/product/9780596517748.do"&gt;JavaScript: The Good Parts&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="http://shop.oreilly.com/product/9780596805531.do"&gt;JavaScript: The Definitive Guide&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    And of course a series of exercises to practice and build a portfolio of sorts. Not sure exactly what this is going to entail...
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  Do you have any suggestions? I'd love to work with a pretty clear plan, a curriculum if you will, and any ideas would be appreciated. Thank you!
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>RubyConf - a look back</title>
+    <link rel="alternate" href="http://lucybain.com/blog/2014/RubyConf-a-look-back/"/>
+    <id>http://lucybain.com/blog/2014/RubyConf-a-look-back/</id>
+    <published>2014-03-07T00:00:00Z</published>
+    <updated>2014-03-27T10:32:57+11:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  It's been almost 3 weeks since RubyConf. Feels like longer. I wrote a &lt;a href="/blog/2014/RubyConfAU/"&gt;quick review&lt;/a&gt; after the event, but that post didn't do RubyConf justice.
+&lt;/p&gt;
+&lt;p&gt;
+  Really, I'm not sure what made RubyConf so great. The talks? Meeting new people? Chatting with existing friends? Learning? Seeing so many people interested in the same thing? I don't know. Everything there was pretty amazing.
+&lt;/p&gt;
+&lt;p&gt;
+  But for me, the most amazing part was what happened when I left. When I went back to work. When the talks were over, and my friends dispersed. Once I'd caught up on sleep and headed back to the "real world" I found I had more confidence as a programmer. A lot more. Enough to go out and make my &lt;a href="/resources/udacity-python-study-group/"&gt;Python 101 study group&lt;/a&gt; happen. Enough to tell my team why I was unhappy with our process (something they took very seriously and changed quickly - I love &lt;a href="/resources/job/"&gt;my team&lt;/a&gt;). Enough to feel like I have useful opinions.
+&lt;/p&gt;
+&lt;p&gt;
+  Not that I thought of myself as dumb or useless, just that I assumed my experience level excluded me from ... something. As the least experienced member of our team I'm used to not knowing things, asking questions, and trying to keep up with everyone else. Somehow RubyConf reminded me of what I have learned in the past 2 years of Ruby. It reminded me of the great community I'm part of, and help form through &lt;a href="http://railsgirls.com/sydney"&gt;RailsGirls&lt;/a&gt;, &lt;a href="http://www.meetup.com/Ruby-On-Rails-Oceania-Sydney/"&gt;Installfest, and DevHub&lt;/a&gt;. People asked me my opinion about things (ok, sure those things were mostly about being a woman in tech, but still, it made me feel valued), and I actually understood most of the talks I watched (not all, but most, always room to grow!). And people knew me - after living in Sydney for almost a year now, RubyConf made me feel like I belonged.
+&lt;/p&gt;
+&lt;p&gt;
+  I know there were many &lt;a href="http://sampeters.net/blog/meetups-hubs-and-casual-get-togethers-and-the-developer-community/"&gt;different&lt;/a&gt; &lt;a href="http://ruby.org.au/articles"&gt;reactions&lt;/a&gt; to RubyConf. But I'd like to add mine to the mix. It was amazing - both before and after.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Sublime Auto Indent</title>
+    <link rel="alternate" href="http://lucybain.com/blog/2014/Sublime-Auto-Indent/"/>
+    <id>http://lucybain.com/blog/2014/Sublime-Auto-Indent/</id>
+    <published>2014-02-27T00:00:00Z</published>
+    <updated>2014-03-27T10:32:57+11:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  I recently discovered how to get Sublime to fix indentations for you! Since I spend a certain amount of time each day pushing characters left and right this was pretty exciting. Hope you find it useful!
+&lt;/p&gt;
+&lt;p&gt;
+  In Sublime, under &lt;code&gt;Preference&lt;/code&gt; select &lt;code&gt;Key Bindings - User&lt;/code&gt;. If you've got anything in there already, just add the &lt;code&gt;{ "keys"... }&lt;/code&gt; section below. Otherwise you can replace the &lt;code&gt;[]&lt;/code&gt; with:
+&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;[&amp;#x000A;  { "keys": ["super+i"],&amp;#x000A;    "command": "reindent"}&amp;#x000A;]&lt;/pre&gt;
+&lt;p&gt;
+  Now you can use &lt;code&gt;cmd + i&lt;/code&gt; (mac), or &lt;code&gt;ctrl + i&lt;/code&gt; (windows) to auto indent your code. It's not always perfect, but it's helped me with my rails code.
+&lt;/p&gt;
+&lt;h2&gt;
+  What's happening here?
+&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;code&gt;"keys"&lt;/code&gt; labels the next section as the keys that will trigger the action.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;["super+i"]&lt;/code&gt; means "use whatever this computer defaults to" (&lt;code&gt;cmd&lt;/code&gt; for macs, &lt;code&gt;ctrl&lt;/code&gt; for windows) and &lt;code&gt;i&lt;/code&gt; to trigger the action.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;"command"&lt;/code&gt; labels which command the given key binding should trigger.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;"reindent"&lt;/code&gt; is the command that will run on the given key press. You can find a list of commands to use &lt;a href="http://www.sublimetext.com/docs/commands"&gt;in the docs&lt;/a&gt;.
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Getting Started on Twitter</title>
+    <link rel="alternate" href="http://lucybain.com/blog/2014/getting-start-on-twitter/"/>
+    <id>http://lucybain.com/blog/2014/getting-start-on-twitter/</id>
+    <published>2014-02-25T00:00:00Z</published>
+    <updated>2014-03-27T10:32:57+11:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  A friend of mine recently got set up with Twitter and asked for some pointers. Another friend complemented me on my feed. I felt flattered, and wanted to make how I use Twitter public.
+&lt;/p&gt;
+&lt;p&gt;
+  There are &lt;em&gt;many&lt;/em&gt; sites out there to help you use Twitter more effectively. I do not believe what I have to say is better or more relevant, this is just written from one friend to another, I hope you find it helpful.
+&lt;/p&gt;
+&lt;h2&gt;
+  The basics
+&lt;/h2&gt;
+&lt;p&gt;
+  There are a few starting points you should know about Twitter. Once you've had an account for a while it's fairly straight forward, but if you're just starting out here are some tips:
+  &lt;ul&gt;
+    &lt;li&gt;
+      If you tweet at someone (e.g. "@lucykbain how's your day going?") only people who follow both you and the person you're tweeting at can see the tweet. If you'd like to tweet at someone but want everyone to see you need to start with another character, general a period (e.g. ".@lucykbain thanks for the link - I'm sharing it with everyone!")
+    &lt;/li&gt;
+    &lt;li&gt;
+      If you retweet someone your handle (username) is visible, but not as prominent as the person you retweeted. You can get around this by quoting their tweet, but unless you're adding something it's kind of bad manners.
+    &lt;/li&gt;
+    &lt;li&gt;
+      Favouriting tweets lets the person know you saw the tweet, or that you appreciated it. It will be saved in your "favourited" section, but it doesn't go out to your followers. The person who wrote the original tweet would appreciate a retweet over a favourite, but that's up to you.
+    &lt;/li&gt;
+    &lt;li&gt;
+      You can send a direct message (DM) to someone you follow who follows you back (two way follow). A DM is kind of like an email (private between the two of you), but has the same character limit. Also, I've found it can be hard to share links in a DM, sometimes it works, sometimes it doesn't.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/p&gt;
+&lt;h2&gt;Moving up in the world&lt;/h2&gt;
+&lt;p&gt;
+  If you're happy with your twitter experience, that's great! Just keep doing what you're doing. I'm not telling you that you should change. But, if you'd like more followers, exposure, or focus, the rest of this post might help.
+&lt;/p&gt;
+&lt;p&gt;
+  Ok, now you've gotten the hang of Twitter, you have a few followers (hey, your mom totally counts!), and you're following a few people yourself (the more the merrier!). What's next?
+&lt;/p&gt;
+&lt;p&gt;
+  For me it's now about optimising your tweets and your time. Sure some people seem to tweet constantly - more power to them. I tend to unfollow people who tweet too much. I don't  want to spend my day sifting through tweets to find good ones to retweet, or reading through someone's blow by blow account of their breakfast. Other people tweet whenever, sometimes going weeks at a time without writing anything. I usually forget I'm following these people, but their tweets don't bother me.
+&lt;/p&gt;
+&lt;p&gt;
+  So let's say you decide to set a goal for two "good" tweets a day. "Good" is what you define it to be - links to your own content, witty comments, helpful tips, links to things you found interesting/useful, whatever you think the internet needs more of. Two tweets a day is a good starting point - enough that you feel a bit of pressure to make good tweets, but few so you have to trash the bad ones. Now, how do you know when to tweet?
+&lt;/p&gt;
+&lt;p&gt;
+  You go checkout &lt;a href="https://followerwonk.com/"&gt;followerwonk&lt;/a&gt; and find out when most of your followers are active. (There are other services that do the same kind of thing. I've only ever used followerwonk, so I don't know about the others, just that they exist.) But don't stop there, scroll down a little more and find when most of your followers retweet. Retweets are pretty much the goal. Whatever your saying, you want it to get to as many people as possible. If they end up following you, that's great, but even if they don't, they saw what you were saying, and that's the important bit. If you're only tweeting once or twice a day you want to make sure what you tweet has the greatest impact.
+&lt;/p&gt;
+&lt;p&gt;
+  Rank the times you tweet based on their potential. Generally that will be the number of retweets your followers make during a given time. Whatever is in your "best" time make sure that's your best content. This isn't rocket science, it isn't particularly interesting or hard. It's just that you should think about it. Sure, you can tweet whenever, but if you know when the "best" time for you is, tweet then.
+&lt;/p&gt;
+&lt;p&gt;
+  Finally, it's pretty annoying to remember when to tweet. You might think of something great to say, but at the "wrong" time. There are a few services out there. I use &lt;a href="http://bufferapp.com/r/63cdc6"&gt;Buffer&lt;/a&gt;, but there are similar services out there. They'll keep track of when to tweet for you so you don't need to. It also means you can put a whole bunch of great tweets together at the same time, but they'll get spaced out so you don't spam your followers.
+&lt;/p&gt;
+&lt;p&gt;
+  Of course there are going to be times when you just &lt;em&gt;have&lt;/em&gt; to tweet. That's fine, it's even encouraged if you're at an event or tweeting about anything time based. Just be aware that if you're tweeting more than usual about something specific, other people are too. The whole stream is diluted, and your great content is more likely to get missed. So maybe pause your Buffer, or put in some of your not-so-great tweets...
+&lt;/p&gt;
+&lt;p&gt;
+  And that's it! As I said, not particularly scientific, and certainly nothing about massive SEO stuff or anything like that. This is just how I deal with sending out tweets, and keeping track of when I say what. Your time is valuable, and so is the time of your followers. Try not to waste it.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>RubyConf Australia 2014</title>
+    <link rel="alternate" href="http://lucybain.com/blog/2014/RubyConfAU/"/>
+    <id>http://lucybain.com/blog/2014/RubyConfAU/</id>
+    <published>2014-02-23T00:00:00Z</published>
+    <updated>2014-03-27T10:32:57+11:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  I just finished RubyConf Australia, and what a wild ride! I've never been to a conference before, and I was a bit nervous what it would be like. Would people be welcoming? Would I know where to be? Would everyone be taking notes, or no one? Turns out I needn't have worried. The Ruby community was just as amazing as ever.
+&lt;/p&gt;
+&lt;p&gt;
+  I met a bunch of new people - many women programmers, and many people hoping to make programming more available through mentorship and code education. While I enjoyed meeting all my fellow rubists, these connections were especially fulfilling since they touch on issues near and dear to my heart. I met &lt;a href="http://twitter.com/amandamelb"&gt;Amanda&lt;/a&gt;, who's poised to be the leader for &lt;a href="http://twitter.com/RailsGirls_MELB"&gt;Rails Girls Melbourne&lt;/a&gt;, and a few members of her study group. I'm sure any additional communication between the various Rails Girls chapters in Australia will be helpful. I was even put in contact with the woman who runs Rails Girls in Wellington, NZ. A nice reminder that this is an international organisation, not just Australia.
+&lt;/p&gt;
+&lt;p&gt;
+  Much of the event was about facilitating these kinds of connections - people who are interested in the same kind of things finding each other and learning from everyone's experiences. But of course the main focus was the talks, which I loved attending! I haven't been at school in quite a while, all of my "continuing education" has been done on my own - books people have recommended, articles online, websites, coding exercises. While I have gained from these, it is never as concentrated an effort, and usually in isolation. Going to the conference let me learn with my friends and discuss the talks after. It was great to feel part of the community while learning - answering questions as able, asking my own to better understand what was discussed.
+&lt;/p&gt;
+&lt;p&gt;
+  Unfortunately I had to duck out on the morning of the second day. I'm in the process of moving apartments and had some paperwork to deal with. It certainly hurt the feel of the day, I was much lower energy - late nights, preping for &lt;a href="/blog/2014/Rails-Girls-Next/"&gt;Rails Girls Next&lt;/a&gt;, a lot of learning, and the stress of moving made me exhausted. But I still got something from the talks, and I enjoyed continuing on the conversations I started with people the day before. Apparently conferences encourage people to become fast friends!
+&lt;/p&gt;
+&lt;p&gt;
+  All in all, I'm really glad I received a scholarship ticket for my work with Rails Girls, otherwise I probably wouldn't have gone. And my work paid me to be there, which was very appreciated as well. The next Ruby Conf will be in Melbourne, and I'm hoping I can attend that one as well!
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Rails Girls Next</title>
+    <link rel="alternate" href="http://lucybain.com/blog/2014/Rails-Girls-Next/"/>
+    <id>http://lucybain.com/blog/2014/Rails-Girls-Next/</id>
+    <published>2014-02-19T00:00:00Z</published>
+    <updated>2014-03-27T10:32:57+11:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  Wahoo! Rails Girls Next happened without a (major) hitch today! I am so happy with how it went, and to have helped with these girls' continuing Ruby education.
+&lt;/p&gt;
+&lt;h2&gt;
+  The event
+&lt;/h2&gt;
+&lt;p&gt;
+  I've shared the &lt;a href="https://docs.google.com/presentation/d/19Jj8I4CVRe8k2sP8m17PMk0PXwbY0646MxWDS6VJ5yo/edit?usp=sharing"&gt;slides&lt;/a&gt; used for keeping track of time, so you can see the schedule we actually used on the day. We had &lt;a href="http://lbain.github.io/rails-girls-next/"&gt;three exercises&lt;/a&gt; for the girls to work through - test driven development (TDD), focused work with Ruby, and learning how the web works with Sinatra.
+&lt;/p&gt;
+&lt;p&gt;
+  When the girls checked in they sat at one of six tables and tried to connect to the internet. Once it was time to start, each table was assigned one of three exercises (two tables per exercise). The goal was for each girl to do all of the exercises, and for all of the exercises to be running at any given time. Thus everyone would rotate through the exercises, and no single exercise would be overwhelmed with participants. We also strongly encouraged the girls to work in pairs, and to switch pairs after each exercise; the time they got up to switch exercises was a good time to switch pairs.
+&lt;/p&gt;
+&lt;p&gt;
+  When the girls started a new exercise they were given a brief overview of the exercise by the mentor at the table and then they got started. We didn't offer much guidance since we wanted the girls to work in their pairs and rely on each other, but mentors were readily available for struggling groups. After about an hour all the attendees who had been working on the same exercise (about nine) gathered with their mentors (two mentors per exercise). For the next 15 minutes they had a group discussion about the solutions they had come up with, as well as some good practices and tips from the mentors.
+&lt;/p&gt;
+&lt;p&gt;
+  After a short break (time to move to another exercise area and find a new pair partner) this process was repeated for each of the remaining exercises. Once the exercises were over the girls were asked to fill out a short survey about how they found the day. Finally, the last part of the day was a discussion with the whole group. This was framed as a retro (although it wasn't a full agile retrospective), and gave the girls, mentors, and myself a time and place to discuss how the day went and what could have been better. I found it extremely valuable to hear which exercises "worked" for the girls, and which ones needed tweaking, how the mentors felt about the discussions after each exercise, what things everyone would like to see changed before the next event, and others. Much of what was discussed was also in the feedback form, but I wanted to make sure the girls gave their feedback independently, before they could be influenced by listening to other participants.
+&lt;/p&gt;
+&lt;h2&gt;
+  Lessons learned
+&lt;/h2&gt;
+&lt;p&gt;
+  We had the normal problems with the girls connecting to conference (aka hotel) wifi. I'm not sure if there's any way to fix this - hotels never seem to believe how much internet programmers use. There was also some concern about power for the attendee's computers so the conference coordinators and myself went out to buy a few more power strips. In the end it seemed everyone who needed power could get it, or they were pairing on another computer that had enough power. In the future I'd like to check the power situation in advance.
+&lt;/p&gt;
+&lt;p&gt;
+  From an organisers point of view, the biggest problem was that I hadn't asked about food times. I'd assumed we'd be able to eat when we were ready, but since we were getting food from the hotel this was not the case. It caused some problems with the timing for the day, but worked out overall. This is something that's easily avoidable - I just needed to ask the conference organisers in advance.
+&lt;/p&gt;
+&lt;p&gt;
+  The exercises were (mostly) hosted on GitHub pages. This was convenient since GitHub took care of the hosting and coding everything was pretty straight forward. However, I'd never actually written a site in pure HTML, and man, it is annoying! In the future I'd write any sites I need using whatever method I'm used to (this blog is written with &lt;a href="middlemanapp.com"&gt;Middleman&lt;/a&gt;, I recommend checking it out). Writing pure HTML is just time consuming, and there's no need - we've moved on from then! That said, I'm hoping to move the exercises back to Rails Girls so other groups can use them in the future.
+&lt;/p&gt;
+&lt;p&gt;
+  Although I had a clear idea in my head how the discussions after each exercise were supposed to go, I hadn't communicated that as well as was needed to the mentors. I wanted that time to be for the girls to realise other people were running into the same problems they were and they weren't "dumb." I also wanted to end up with a whole stack of happy post-it notes with a list of all the things the girls had learned - what a great thing to look back on! Unfortunately my ideas for this time really only solidified about two days before the event, and I never met up with the mentors to talk about it. I'd like to have a better write up for the mentors for future events.
+&lt;/p&gt;
+&lt;p&gt;
+  Overall the feedback was useful and positive, but one response talked about feeling depressed with how far behind they felt when compared to the other participants. Obviously I was very sad about this - Rails Girls is set up to help everyone succeed, and I hated to think something I had poured so much energy into had actually made someone feel worse about themselves. At least with this piece of honest feedback we can do something to make the exercises more approachable and/or make some &lt;em&gt;very&lt;/em&gt; beginner friendly exercises.
+&lt;/p&gt;
+&lt;p&gt;
+  The most actionable piece of feedback is the ordering of the exercises. All of the girls seemed to find the TDD exercise the most approachable and the Ruby one the most challenging. So in the future I'd like for everyone to work on the same exercise at the same time. I'm not sure how to really encourage the girls to switch pairs between exercises, hopefully if there's an official "switch" time they'll do it themselves. And speaking of pairing, the other easily actionable feedback was that the Sinatra exercise didn't need pairing as it provided a clear enough walk through to work on alone.
+&lt;/p&gt;
+&lt;p&gt;
+  At the end of the day, I'm really pleased with how the event went. I was blown away with how much the girls got done - massive props to them for sticking with the harder exercises and wanting to really understand it. And of course huge thanks to the mentors who gave up a day to help strangers learn to code. Hopefully the next Rails Girls Next event will run more smoothly and have more approachable exercises, but I think this was a pretty good starting point.
+&lt;/p&gt;
+</content>
+  </entry>
+</feed>
