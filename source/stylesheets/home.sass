@@ -1,21 +1,23 @@
 @import variables
 
-.personal-info
-  margin: 60px auto 0px auto
-  text-align: center
+.lucy-photo
+  height: 128px
+  border-radius: 150px
+  -webkit-border-radius: 150px
+  -moz-border-radius: 150px
 
-  .photo
-    margin: 0px auto 20px
+section
+  .image
+    float: left
+    width: 180px
+    margin-top: 40px
+  .content
+    float: left
+    width: $page-width - 200
 
-  .profile-pic
-    width: 300px
-
-  .connections
-    padding: 0px
-    li
-      display: inline
-      margin-right: 15px
-
+iframe
+  .ss-form-title
+    display: none
 
 @include respond(medium)
   .personal-info

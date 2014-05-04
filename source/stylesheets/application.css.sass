@@ -10,11 +10,16 @@ body
 
 a
   text-decoration: none
-  color: $accent
+  color: $dark-accent
   -webkit-font-smoothing: antialiased
   text-decoration: none
   &:hover
     text-decoration: underline
+
+  &.text
+    color: $dark-gray
+    &:hover
+      text-decoration: none
 
 b, strong, bold
   font-weight: $bold

@@ -1,55 +1,105 @@
-%h1 JS and jQuery Study Group
+%header
+  %section
+    %h1
+      A Sydney JavaScript and jQuery study group.
+    =link_to 'Sign me up!', '#sign-up'
 
-%h2 The reason
-%p
-  I'm currently a back end Ruby on Rails developer, but I want to learn more about front end. I'm not very good at staying motivated and on track without other people to check on me. I also love teaching and tutoring - the whole education thing is pretty cool :) So I decided to run a study group to learn JS/jQuery.
+%section
+  %div.image
+    = image_tag 'study-hat.svg'
+  %div.content
+    %h2 What will I learn?
+    %p
+      We will go through The Odin Project's #{link_to 'JS and jQuery course', 'http://www.theodinproject.com/javascript-and-jquery'}. We'll talk about the project you completed the previous week and discuss the material for the next project.
 
-%h2 The group
-%p
-  The study group will go through The Odin Project's #{link_to 'JS and jQuery course', 'http://www.theodinproject.com/javascript-and-jquery'}. We'll meet at #{link_to 'my office', '#'} each week (day to be decided, but probably on Mondays) to talk about the project you completed the previous week (and any problems that came up), and then discuss the content for the next project. We will try to clear up any confusion that came up in that week's content, help each other out, and generally encourage each other.
+%section
+  %div.image
+    = image_tag 'calendar.svg'
+  %div.content
+    %h2 Where and when do we meet?
+    %p
+      We'll meet at #{link_to 'my office', '#'} once a week on Mondays. I'm not sure when we'll start, but the first or second Mondays of July.
+    %p
+      I've created the #{link_to 'schedule', '#'} so we have one project a week. Every 5th week is a catch up week and attending study group is optional. With this schedule the course will take 17 weeks. We will take breaks due to public holidays and the like. Those breaks just get slotted in, and then we continue the schedule from there.
 
-%h2 The Time
-%p
-  I'm not sure exactly when it will start, but not before July. I've built the #{link_to 'schedule', '#'} so we have one project a week. Every 5th week is a catchup week and study group will be optional. The course should take 17 weeks. We will probably have to take some breaks due to public holidays. Those breaks just get slotted in, and then we continue the schedule from there.
+%section
+  %div.image
+    = image_tag 'money.svg'
+  %div.content
+    %h2 How much will it cost?
+    %p
+      The cost for this group is $5 per study group meeting, excluding the optional meetings and two free passes. So 12 paid meetings, totaling $60. However, every meeting you attend you'll earn $5 back (to be awarded at the end of the series). If you're not there, your $5 goes to the pot. At the end of the session the money in the pot will be divided between members who have been to the most meetings. So you could end up making money from going to a study group - sweet deal, right?
 
-%h2 The Cost
-%p
-  The study group is <em>free</em>. This group is about us all helping each other and getting through the course. I'm not trying to make money off you.
-%p
-  <em>But</em> I believe money can be a motivating factor. I don't want to start with a group and end up with just me. I'm looking to you guys to hold me accountable for showing up, and I'm investing a certain amount of time getting this whole thing off the ground. It's not fair to me or the group if you sign up and then drop out right away (or never show). You're more likely to attend an event you pay for.
-%p
-  The "cost" for this group is $5 per study group meeting, excluding the optional meetings, and with two “free passes”. That comes to 12 “paid” meetings, for a total of $60. Every meeting you come to you’ll earn $5 back (to be awarded at the end of the series). If you're not there, your $5 goes to the pot. At the end of the session the money in the pot will be divided between members who have been to the most meetings. So you could end up making money from going to a study group - sweet deal, right?
+%section
+  %div.image
+    = image_tag 'clipboard.svg'
+  %div.content
+    %h2 What do I need to know?
+    %p
+      The Odin Project assumes you've programed before doing the JS course. It's ok to have little to no experience with JS, but you need to know some basic programming concepts (array, hash, variable, function, boolean, if/else, loops).
+    %p
+      Before the first meeting you need to go through The Odin Project's:
+    %ul
+      %li #{link_to 'front end overview', 'http://www.theodinproject.com/web-development-101#section-the-front-end'},
+      %li #{link_to 'Git 101'}, and
+      %li the #{link_to('two', 'http://www.theodinproject.com/javascript-and-jquery/how-this-course-will-work')} intro #{link_to('section', 'http://www.theodinproject.com/javascript-and-jquery/javascript-basics')} for this course.
 
-%h3 Don't give money to randoms on the internet
-%p
-  I understand that you're unwilling to just give me money. Who am I? Why should you trust me? Will I actually give you your money back? These are all very good questions. All I can say is, I did it for my last study group, and everyone got paid appropriately. You'll be able to meet me at the first meeting, and I'm guessing most of you would have met me before.
+%section
+  %div.image
+    = image_tag 'silly.jpg', class: 'lucy-photo'
+  %div.content
+    %h2 Who are you?
+    %p
+      I'm a Rails dev, trying to learn front end development. I'm not very good at sticking with courses on my own, so I'm getting you guys to hold me accountable (thanks!). I love teaching and tutoring - I did a #{link_to 'study group', 'http://lucybain.com/resources/udacity-python-study-group/'} like this one for Udacity's #{link_to 'CS101', 'https://www.udacity.com/course/cs101'} course.
 
-%h2 The Past
-%p
-  I’ve done a group like this before, for Udacity’s CS101 course. You can see my #{link_to('original listing', '/resources/udacity-python-study-group/')} (it should sound pretty familiar...). My group member feedback is that they wouldn't have stuck with it if it wasn't for the Udacity study group. Hopefully this JS one will be even better!
+%section
+  %div.image
+  %div.content
+    %a{name: 'sign-up', class: 'text'}
+      %h2 Sign up!
+    %p
+      This is an interest form since I don't have official dates yet.
 
-%h2 TL;DR
-%ul
-  %li I will organise a study group once a week for The Odin Project's JS and jQuery course
-  %li Start date is TBD, but not before July - I'll send out an email closer to the time.
-  %li We will meet at my office - #{link_to 'new office', '#'}
-  %li You are responsible for reading through that week's lesson and working through the project
-  %li We will discuss any problems and questions that came up at the study group
-  %li If you weren't able to finish the project that week you are responsible for finishing it on your own
-
-%h3 Prerequisites
-%p
-  This is not a learn to program course. The Odin Project assumes you've spent some time programming before doing the JS course. It's ok to have little to no experience with JS, but you need to know some basic programming concepts (array, hash, variable, function, boolean, if/else, loops). If that's not the case for you, you might want to go through at least their #{link_to('Ruby course', 'http://www.theodinproject.com/ruby-programming')} first (maybe you can even start a #{link_to('study group', 'http://www.theodinproject.com/studygroups')} for it!).
-
-%p
-  You need to go through The Odin Project's:
-%ul
-  %li #{link_to('front end overview', 'http://www.theodinproject.com/web-development-101#section-the-front-end')}.
-  %li #{link_to 'Git 101'}.
-
-%h2 The Form
-%p
-  If you're interested in this group please fill out the form below. I'll try to send an email letting you know I've gotten your response, but don't worry if you don't hear from me for a week or so. After that please try filling out the form again. While you're waiting you can start going through the prerequisites to make sure you're ready for the course in time.
-
-:plain
-  <iframe src="https://docs.google.com/forms/d/1E4DA3gsQcLG-5qSp5HxDdSA93BZzdWwkH04hUCtOGl4/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    %form#ss-form{action: "https://docs.google.com/forms/d/1E4DA3gsQcLG-5qSp5HxDdSA93BZzdWwkH04hUCtOGl4/formResponse?embedded=true", method: "POST", onsubmit: "", target: "_self"}
+      %ol.ss-question-list{role: "list", style: "padding-left: 0"}
+        .ss-form-question.errorbox-good{role: "listitem"}
+          .ss-item.ss-text{dir: "ltr"}
+            %input#entry_1275735517.ss-q-short{"aria-label" => "Name  ", "aria-required" => "true", dir: "auto", name: "entry.1275735517", required: "", title: "", type: "text", value: "", placeholder:"Name"}/
+        .ss-form-question.errorbox-good{role: "listitem"}
+          .ss-item.ss-text{dir: "ltr"}
+            .ss-form-entry
+              %input#entry_1310634786.ss-q-short{"aria-label" => "Email address  ", "aria-required" => "true", dir: "auto", name: "entry.1310634786", required: "", title: "", type: "text", value: "", placeholder: "Email"}/
+        .ss-form-question.errorbox-good{role: "listitem"}
+          .ss-item.ss-radio{dir: "ltr"}
+            .ss-form-entry
+              %label.ss-q-item-label{for: "entry_1622566978"}
+                .ss-q-title
+                  How did you hear about this?
+                .ss-q-help.ss-secondary-text{dir: "ltr"}
+              %ul.ss-choices{"aria-label" => "How did you hear about this?  ", role: "radiogroup"}
+                %li.ss-choice-item
+                  %label
+                    %span.ss-choice-item-control.goog-inline-block
+                      %input#group_867050812_1.ss-q-radio{"aria-label" => "Twitter", name: "entry.867050812", role: "radio", type: "radio", value: "Twitter"}/
+                    %span.ss-choice-label Twitter
+                %li.ss-choice-item
+                  %label
+                    %span.ss-choice-item-control.goog-inline-block
+                      %input#group_867050812_2.ss-q-radio{"aria-label" => "Women Who Code", name: "entry.867050812", role: "radio", type: "radio", value: "Women Who Code"}/
+                    %span.ss-choice-label Women Who Code
+                %li.ss-choice-item
+                  %label
+                    %span.ss-choice-item-control.goog-inline-block
+                      %input#group_867050812_3.ss-q-radio.ss-q-other-toggle{name: "entry.867050812", role: "radio", type: "radio", value: "__other_option__"}/
+                  %span.ss-q-other-container.goog-inline-block
+                    %input#entry_867050812_other_option_response.ss-q-other{"aria-label" => "Other", dir: "auto", name: "entry.867050812.other_option_response", type: "text", value: "", placeholder: "Other"}/
+              .error-message
+        %input{name: "draftResponse", type: "hidden", value: "[,,\"-1128116732775176250\"]\r\n"}/
+        %input{name: "pageHistory", type: "hidden", value: "0"}/
+        %input{name: "fbzx", type: "hidden", value: "-1128116732775176250"}/
+        .ss-item.ss-navigate
+          %table#navigation-table
+            %tbody
+              %tr
+                %td#navigation-buttons.ss-form-entry.goog-inline-block{dir: "ltr"}
+                  %input#ss-submit{name: "submit", type: "submit", value: "Sign me up!"}/

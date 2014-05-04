@@ -1,34 +1,43 @@
 @import variables
 
+$input-width: 300px
+
 form
-  padding: 10px 30px
+  margin-bottom: 100px
 
   label
     font-family: $content-font
     -webkit-font-smoothing:  antialiased
     line-height: 1.75em
 
+  ul, li
+    list-style-type: none
+    padding-left: 10px
+    input[type=text]
+      width: $input-width - 68
+
   input
     &[type=text],
     &[type=email],
-      padding: 5px
-      border: 2px solid $light-gray
+      padding: 5px 10px
+      background-color: $very-light-gray
+      border: none
       -webkit-border-radius: 5px
       border-radius: 5px
-      &:focus
-        border-color: $accent
-    &[type=submit]
-      padding: 5px 15px
-      background: $white
-      border: 2px solid $light-gray
-      cursor: pointer
-      -webkit-border-radius: 5px
-      border-radius: 5px
-      &:hover
-        background: $light-accent
-        border-color: $accent
-      &:active
-        background: $accent
+      margin-bottom: 15px
+      width: $input-width
 
-  .asterisk
-    color: $accent
+    &[type=submit]
+      color: white
+      background-color: $accent
+      font-family: $title-font
+      font-size: 15px
+      -moz-border-radius: 15px
+      border-radius: 5px
+      border: 2px solid white
+      padding: 10px 20px
+      width: $input-width
+      margin-top: 15px
+
+  .ss-choice-item-control
+    padding-right: 10px

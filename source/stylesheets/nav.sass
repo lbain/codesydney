@@ -1,17 +1,20 @@
 @import variables
 
-.nav
-  text-align: center
+nav
+  width: $page-width
+  margin: auto
+  text-align: right
   padding: 0
+  a
+    color: $dark-gray
+    &:hover
+      color: $accent
+      text-decoration: none
 
   li
     display: inline
     margin-right: 15px
-    font-size: 20px
-    @include respond(medium)
-      font-size: 18px
-    @include respond(small)
-      font-size: 16px
+    font-size: 15px
 
   li:last-child
     margin-right: 0px
