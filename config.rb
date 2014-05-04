@@ -60,8 +60,8 @@ set :images_dir, 'images'
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-with_layout :blog do
-  page "/blog/*"
+with_layout :update do
+  page "/update/*"
 end
 
 

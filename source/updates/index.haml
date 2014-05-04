@@ -2,14 +2,18 @@
 no_comments: true
 pageable: true
 ---
+%header
+  %section
+    %h1
+      Updates
 - if paginate && num_pages > 1
   - if prev_page
     %p= link_to 'Previous page', prev_page
-- page_articles.each_with_index do |article, i|
-  %h2
-    = link_to article.title, article
-  %p= article.date.strftime('%b %e, %Y')
-  = article.summary(500)
+- page_articles.each do |article|
+  %section
+    %h2= article.title
+    %div.date= article.date.strftime('%b %e, %Y')
+    = article.body
 - if paginate
   - if next_page
     %p
