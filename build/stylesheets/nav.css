@@ -1,0 +1,21 @@
+/* line 3, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
+nav {
+  width: 720px;
+  margin: auto;
+  text-align: right;
+  padding: 0; }
+  /* line 8, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
+  nav a {
+    color: #333333; }
+    /* line 10, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
+    nav a:hover, nav a.active {
+      color: #eb9046;
+      text-decoration: none; }
+  /* line 15, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
+  nav li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 15px; }
+  /* line 20, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
+  nav li:last-child {
+    margin-right: 0px; }

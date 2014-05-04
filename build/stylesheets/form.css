@@ -1,0 +1,39 @@
+/* line 5, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+form {
+  margin-bottom: 100px; }
+  /* line 8, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+  form label {
+    font-family: "Crimson Text", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.75em; }
+  /* line 13, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+  form ul, form li {
+    list-style-type: none;
+    padding-left: 10px; }
+    /* line 16, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+    form ul input[type=text], form li input[type=text] {
+      width: 232px; }
+  /* line 20, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+  form input[type=text], form input[type=email] {
+    padding: 5px 10px;
+    background-color: #eeeeee;
+    border: none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 280px; }
+  /* line 30, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+  form input[type=submit] {
+    color: white;
+    background-color: #eb9046;
+    font-family: "Nobile", sans-serif;
+    font-size: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    width: 300px;
+    margin-top: 15px; }
+  /* line 42, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+  form .ss-choice-item-control {
+    padding-right: 10px; }
