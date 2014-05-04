@@ -20,7 +20,7 @@
     %p
       We'll meet at #{link_to 'my office', '#'} once a week on Mondays. I'm not sure when we'll start, but it will probably be July 7th.
     %p
-      I've created the #{link_to 'schedule', '#'} so we have one project a week. Every 5th week is a catch up week and attending study group is optional. With this schedule the course will take 17 weeks. We will take breaks due to public holidays and the like.
+      I've created the #{link_to 'schedule', '/schedule/'} so we have one project a week. Every 5th week is a catch up week and attending study group is optional. With this schedule the course will take 17 weeks. We will take breaks due to public holidays and the like.
 
 %section
   %div.image
@@ -54,7 +54,10 @@
     %p
       This is an interest form since I don't have official dates yet.
 
-    %form#ss-form{action: "https://docs.google.com/forms/d/1E4DA3gsQcLG-5qSp5HxDdSA93BZzdWwkH04hUCtOGl4/formResponse?embedded=true", method: "POST", onsubmit: "", target: "_self"}
+    :javascript
+      var submitted=false;
+    %iframe#hidden_iframe{name: "hidden_iframe", onload: "if(submitted) {window.location='thank-you/';}", style: "display:none;"}
+    %form#ss-form{action: "https://docs.google.com/forms/d/1E4DA3gsQcLG-5qSp5HxDdSA93BZzdWwkH04hUCtOGl4/formResponse?embedded=true", method: "post", onsubmit: "submitted=true;", target: "hidden_iframe"}
       %ol.ss-question-list{role: "list", style: "padding-left: 0"}
         .ss-form-question.errorbox-good{role: "listitem"}
           .ss-item.ss-text{dir: "ltr"}
