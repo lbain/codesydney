@@ -7,7 +7,7 @@
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  blog.prefix = "blog"
+  blog.prefix = "updates"
 
   blog.permalink = "{year}/{title}.html"
   # Matcher for blog source files
@@ -21,8 +21,8 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
-  blog.tag_template = "blog/tag.html"
-  blog.calendar_template = "blog/calendar.html"
+  blog.tag_template = "updates/tag.html"
+  blog.calendar_template = "updates/calendar.html"
 
   # Enable pagination
   blog.paginate = true
