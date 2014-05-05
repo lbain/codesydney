@@ -25,7 +25,11 @@ form
       -webkit-border-radius: 5px
       border-radius: 5px
       margin-bottom: 15px
+      border: 2px solid $white
       width: $input-width - 20
+      &:hover
+        border: 2px solid $accent
+
 
     &[type=submit]
       color: white
@@ -34,7 +38,7 @@ form
       font-size: 15px
       -moz-border-radius: 15px
       border-radius: 5px
-      border: 2px solid white
+      border: 2px solid $white
       padding: 10px 20px
       width: $input-width
       margin-top: 15px

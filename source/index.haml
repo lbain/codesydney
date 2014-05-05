@@ -2,7 +2,7 @@
   %section
     %h1
       A Sydney JavaScript and jQuery study group.
-    =link_to 'Sign me up!', '#sign-up'
+    =link_to 'Sign me up!', '#sign-up', {class: 'button'}
 
 %section
   %div.image
@@ -44,7 +44,7 @@
   %div.content
     %h2 Who are you?
     %p
-      I'm a Rails dev, trying to learn front end development. I'm not very good at sticking with courses on my own, so I'm getting you guys to hold me accountable (thanks!). I love teaching and tutoring - I did a #{link_to 'study group', 'http://lucybain.com/resources/udacity-python-study-group/'} like this one for Udacity's #{link_to 'CS101', 'https://www.udacity.com/course/cs101'} course.
+      I'm #{link_to 'Lucy', 'http://www.lucybain.com'}. I'm a Rails dev trying to learn front end development. I'm not very good at sticking with courses on my own, so I'm getting you guys to hold me accountable (thanks!). I love teaching and tutoring - I did a #{link_to 'study group', 'http://lucybain.com/resources/udacity-python-study-group/'} like this one for Udacity's #{link_to 'CS101', 'https://www.udacity.com/course/cs101'} course.
 
 %section
   %div.image
@@ -114,4 +114,4 @@
             %tbody
               %tr
                 %td#navigation-buttons.ss-form-entry.goog-inline-block{dir: "ltr"}
-                  %input#ss-submit{name: "submit", type: "submit", value: "Sign me up!"}/
+                  %input#ss-submit.button{name: "submit", type: "submit", value: "Sign me up!"}/

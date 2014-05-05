@@ -51,3 +51,6 @@ section {
   section li {
     line-height: 1.75em;
     list-style-type: disc; }
+  /* line 51, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  section .button:hover {
+    background-color: #e57419; }

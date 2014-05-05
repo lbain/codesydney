@@ -439,7 +439,12 @@ header {
       -moz-border-radius: 15px;
       border-radius: 5px;
       border: 2px solid white;
-      padding: 10px 20px; }
+      padding: 10px 20px;
+      margin-top: 20px;
+      display: inline-block; }
+      /* line 27, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/header.sass */
+      header section a:hover {
+        text-decoration: none; }
 
 /* line 6, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/posts.sass */
 .post {
@@ -534,6 +539,9 @@ section {
   section li {
     line-height: 1.75em;
     list-style-type: disc; }
+  /* line 51, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  section .button:hover {
+    background-color: #e57419; }
 
 /* line 1, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/updates.sass */
 #disqus_thread {
@@ -570,8 +578,12 @@ form {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     margin-bottom: 15px;
+    border: 2px solid white;
     width: 280px; }
-  /* line 30, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+    /* line 30, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+    form input[type=text]:hover, form input[type=email]:hover {
+      border: 2px solid #eb9046; }
+  /* line 34, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form input[type=submit] {
     color: white;
     background-color: #eb9046;
@@ -583,7 +595,7 @@ form {
     padding: 10px 20px;
     width: 300px;
     margin-top: 15px; }
-  /* line 42, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+  /* line 46, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form .ss-choice-item-control {
     padding-right: 10px; }
 

@@ -21,8 +21,12 @@ form {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     margin-bottom: 15px;
+    border: 2px solid white;
     width: 280px; }
-  /* line 30, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+    /* line 30, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+    form input[type=text]:hover, form input[type=email]:hover {
+      border: 2px solid #eb9046; }
+  /* line 34, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form input[type=submit] {
     color: white;
     background-color: #eb9046;
@@ -34,6 +38,6 @@ form {
     padding: 10px 20px;
     width: 300px;
     margin-top: 15px; }
-  /* line 42, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+  /* line 46, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form .ss-choice-item-control {
     padding-right: 10px; }
