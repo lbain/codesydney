@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Code Sydney</title>
+  <id>http://codesydney.com/updates</id>
+  <link href="http://codesydney.com/updates"/>
+  <link href="http://codesydney.com/feed.xml" rel="self"/>
+  <updated>2014-05-02T00:00:00Z</updated>
+  <author>
+    <name>Lucy Bain</name>
+  </author>
+  <entry>
+    <title>Mark this RSS feed!</title>
+    <link rel="alternate" href="http://codesydney.com/updates/2014/save-this-space/"/>
+    <id>http://codesydney.com/updates/2014/save-this-space/</id>
+    <published>2014-05-02T00:00:00Z</published>
+    <updated>2014-05-05T11:33:57+10:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  I'm not going to send out bulk emails to everyone unless it's absolutely required. You can subscribe to this RSS feed on your favourite reader, or use something like &lt;a href="http://ifttt.com"&gt;ifttt.com&lt;/a&gt; to get them emailed to you.
+&lt;/p&gt;
+&lt;p&gt;
+  There are also comments enabled for each update. This serves as a kind of email thread as needed. Please let the group know any concerns/questions you have as we go through each week.
+&lt;/p&gt;
+</content>
+  </entry>
+</feed>
