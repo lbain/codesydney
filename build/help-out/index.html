@@ -12,14 +12,14 @@
     <link href="/stylesheets/code.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="/javascripts/all.js" type="text/javascript"></script>
   </head>
-  <body class='index'>
+  <body class='help-out help-out_index'>
     <nav>
       <ul>
         <li>
-          <a class=" active" href="/">Sign Up</a>
+          <a class="" href="/">Sign Up</a>
         </li>
         <li>
-          <a class="" href="/help-out">Help Out</a>
+          <a class=" active" href="/help-out">Help Out</a>
         </li>
         <li>
           <a class="" href="/schedule/">Schedule</a>
@@ -32,66 +32,18 @@
     <header>
       <section>
         <h1>
-          A Sydney JavaScript and jQuery study group.
+          Help out
         </h1>
-        <a class="button" href="#sign-up">Sign me up!</a>
       </section>
     </header>
     <section>
       <div class='image'>
-        <img src="/images/study-hat.svg" />
+        <img src="/images/briefcase.svg" />
       </div>
       <div class='content'>
-        <h2>What will I learn?</h2>
+        <h2>Already know JS?</h2>
         <p>
-          We will go through The Odin Project's <a href="http://www.theodinproject.com/javascript-and-jquery">JS and jQuery course</a>. We'll talk about the project you completed the previous week and discuss the material for the next project.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div class='image'>
-        <img src="/images/calendar.svg" />
-      </div>
-      <div class='content'>
-        <h2>Where and when do we meet?</h2>
-        <p>
-          We'll meet at <a href="https://www.google.com.au/maps/place/2%2F6+Bridge+St/@-33.8634335,151.2079754,17z/data=!3m1!4b1!4m2!3m1!1s0x6b12ae4187c0c501:0xd6fc10736ef340dc">my office</a> once a week on Mondays. I'm not sure when we'll start, but it will probably be July 7th.
-        </p>
-        <p>
-          I've created the <a href="/schedule/">schedule</a> so we have one project a week. Every 5th week is a catch up week and attending study group is optional. With this schedule the course will take 17 weeks. We will take breaks due to public holidays and the like.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div class='image'>
-        <img src="/images/money.svg" />
-      </div>
-      <div class='content'>
-        <h2>How much will it cost?</h2>
-        <p>
-          The cost for this group is $5 per study group meeting, excluding the optional meetings and two free passes. So you get 12 paid meetings for a total of $60. However, every meeting you attend you'll earn $5 back (to be awarded at the end of the series). If you're not there, your $5 goes to the pot. At the end of the session the money in the pot will be divided between members who have been to the most meetings. So you could end up making money from going to a study group - sweet deal, right?
-        </p>
-      </div>
-    </section>
-    <section>
-      <div class='image'>
-        <img src="/images/clipboard.svg" />
-      </div>
-      <div class='content'>
-        <h2>What do I need to know?</h2>
-        <p>
-          The Odin Project assumes you've programmed before doing the JS course. It's ok to have little to no experience with JS, but you need to know some basic programming concepts (array, hash, variable, function, boolean, if/else, loops). There are also a few <a href="/schedule">prerequisites</a> you'll need to do before the first lesson.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div class='image'>
-        <img class="lucy-photo" src="/images/silly.jpg" />
-      </div>
-      <div class='content'>
-        <h2>Who are you?</h2>
-        <p>
-          I'm <a href="http://www.lucybain.com">Lucy</a>. I'm a Rails dev trying to learn front end development. I'm not very good at sticking with courses on my own, so I'm getting you guys to hold me accountable (thanks!). I love teaching and tutoring - I did a <a href="http://lucybain.com/resources/udacity-python-study-group/">study group</a> like this one for Udacity's <a href="https://www.udacity.com/course/cs101">CS101</a> course.
+          We'd love to have people around to answer questions! We're looking for anyone who likes tutoring, knows JS, and would be willing to hang out with us some week(s) for our study group. There's no ongoing commitment, you're welcome to come once or many times. However, I don't want to waste your time by having a bunch of tutors waiting around for questions. So if there's enough interest, I'll add a cap of 2 tutors per week, and spread out the work.
         </p>
       </div>
     </section>
@@ -99,16 +51,13 @@
       <div class='image'></div>
       <div class='content'>
         <a class='text' name='sign-up'>
-          <h2>Sign up!</h2>
+          <h2>Sign up to help</h2>
         </a>
-        <p>
-          This is an interest form since I don't have official dates yet.
-        </p>
         <script>
           var submitted=false;
         </script>
-        <iframe id='hidden_iframe' name='hidden_iframe' onload="if(submitted) {window.location='thank-you/';}" style='display:none;'></iframe>
-        <form action='https://docs.google.com/forms/d/1E4DA3gsQcLG-5qSp5HxDdSA93BZzdWwkH04hUCtOGl4/formResponse?embedded=true' id='ss-form' method='post' onsubmit='submitted=true;' target='hidden_iframe'>
+        <iframe id='hidden_iframe' name='hidden_iframe' onload="if(submitted) {window.location='thank-you-tutors/';}" style='display:none;'></iframe>
+        <form action='https://docs.google.com/forms/d/1VHcN1_377IIQsekX16JSg9o1Qx8P0Ld-wjFG8UgKuA0/formResponse?embedded=true' id='ss-form' method='post' onsubmit='submitted=true;' target='hidden_iframe'>
           <ol class='ss-question-list' role='list' style='padding-left: 0'>
             <div class='ss-form-question errorbox-good' role='listitem'>
               <div class='ss-item ss-text' dir='ltr'>
@@ -184,6 +133,13 @@
                     </li>
                   </ul>
                   <div class='error-message'></div>
+                </div>
+              </div>
+            </div>
+            <div class='ss-form-question errorbox-good' role='listitem'>
+              <div class='ss-item ss-paragraph-text' dir='ltr'>
+                <div class='ss-form-entry'>
+                  <textarea aria-label='Anything else?' class='ss-q-long' cols='0' dir='auto' id='entry_1542545560' name='entry.1542545560' placeholder='Anything else?' rows='8'></textarea>
                 </div>
               </div>
             </div>

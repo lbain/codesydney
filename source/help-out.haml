@@ -1,63 +1,26 @@
 %header
   %section
     %h1
-      A Sydney JavaScript and jQuery study group.
-    =link_to 'Sign me up!', '#sign-up', {class: 'button'}
-
+      Help out
 %section
   %div.image
-    = image_tag 'study-hat.svg'
+    = image_tag 'briefcase.svg'
   %div.content
-    %h2 What will I learn?
+    %h2 Already know JS?
     %p
-      We will go through The Odin Project's #{link_to 'JS and jQuery course', 'http://www.theodinproject.com/javascript-and-jquery'}. We'll talk about the project you completed the previous week and discuss the material for the next project.
+      We'd love to have people around to answer questions! We're looking for anyone who likes tutoring, knows JS, and would be willing to hang out with us some week(s) for our study group. There's no ongoing commitment, you're welcome to come once or many times. However, I don't want to waste your time by having a bunch of tutors waiting around for questions. So if there's enough interest, I'll add a cap of 2 tutors per week, and spread out the work.
 
-%section
-  %div.image
-    = image_tag 'calendar.svg'
-  %div.content
-    %h2 Where and when do we meet?
-    %p
-      We'll meet at #{link_to 'my office', 'https://www.google.com.au/maps/place/2%2F6+Bridge+St/@-33.8634335,151.2079754,17z/data=!3m1!4b1!4m2!3m1!1s0x6b12ae4187c0c501:0xd6fc10736ef340dc'} once a week on Mondays. I'm not sure when we'll start, but it will probably be July 7th.
-    %p
-      I've created the #{link_to 'schedule', '/schedule/'} so we have one project a week. Every 5th week is a catch up week and attending study group is optional. With this schedule the course will take 17 weeks. We will take breaks due to public holidays and the like.
-
-%section
-  %div.image
-    = image_tag 'money.svg'
-  %div.content
-    %h2 How much will it cost?
-    %p
-      The cost for this group is $5 per study group meeting, excluding the optional meetings and two free passes. So you get 12 paid meetings for a total of $60. However, every meeting you attend you'll earn $5 back (to be awarded at the end of the series). If you're not there, your $5 goes to the pot. At the end of the session the money in the pot will be divided between members who have been to the most meetings. So you could end up making money from going to a study group - sweet deal, right?
-
-%section
-  %div.image
-    = image_tag 'clipboard.svg'
-  %div.content
-    %h2 What do I need to know?
-    %p
-      The Odin Project assumes you've programmed before doing the JS course. It's ok to have little to no experience with JS, but you need to know some basic programming concepts (array, hash, variable, function, boolean, if/else, loops). There are also a few #{link_to 'prerequisites', '/schedule'} you'll need to do before the first lesson.
-
-%section
-  %div.image
-    = image_tag 'silly.jpg', class: 'lucy-photo'
-  %div.content
-    %h2 Who are you?
-    %p
-      I'm #{link_to 'Lucy', 'http://www.lucybain.com'}. I'm a Rails dev trying to learn front end development. I'm not very good at sticking with courses on my own, so I'm getting you guys to hold me accountable (thanks!). I love teaching and tutoring - I did a #{link_to 'study group', 'http://lucybain.com/resources/udacity-python-study-group/'} like this one for Udacity's #{link_to 'CS101', 'https://www.udacity.com/course/cs101'} course.
 
 %section
   %div.image
   %div.content
     %a{name: 'sign-up', class: 'text'}
-      %h2 Sign up!
-    %p
-      This is an interest form since I don't have official dates yet.
+      %h2 Sign up to help
 
     :javascript
       var submitted=false;
-    %iframe#hidden_iframe{name: "hidden_iframe", onload: "if(submitted) {window.location='thank-you/';}", style: "display:none;"}
-    %form#ss-form{action: "https://docs.google.com/forms/d/1E4DA3gsQcLG-5qSp5HxDdSA93BZzdWwkH04hUCtOGl4/formResponse?embedded=true", method: "post", onsubmit: "submitted=true;", target: "hidden_iframe"}
+    %iframe#hidden_iframe{name: "hidden_iframe", onload: "if(submitted) {window.location='thank-you-tutors/';}", style: "display:none;"}
+    %form#ss-form{action: "https://docs.google.com/forms/d/1VHcN1_377IIQsekX16JSg9o1Qx8P0Ld-wjFG8UgKuA0/formResponse?embedded=true", method: "post", onsubmit: "submitted=true;", target: "hidden_iframe"}
       %ol.ss-question-list{role: "list", style: "padding-left: 0"}
         .ss-form-question.errorbox-good{role: "listitem"}
           .ss-item.ss-text{dir: "ltr"}
@@ -106,6 +69,10 @@
                   %span.ss-q-other-container.goog-inline-block
                     %input#entry_867050812_other_option_response.ss-q-other{"aria-label" => "Other", dir: "auto", name: "entry.867050812.other_option_response", type: "text", value: "", placeholder: "Other"}/
               .error-message
+        .ss-form-question.errorbox-good{role: "listitem"}
+          .ss-item.ss-paragraph-text{dir: "ltr"}
+            .ss-form-entry
+              %textarea#entry_1542545560.ss-q-long{"aria-label" => "Anything else?", cols: "0", dir: "auto", name: "entry.1542545560", rows: "8", placeholder:"Anything else?"}
         %input{name: "draftResponse", type: "hidden", value: "[,,\"-1128116732775176250\"]\r\n"}/
         %input{name: "pageHistory", type: "hidden", value: "0"}/
         %input{name: "fbzx", type: "hidden", value: "-1128116732775176250"}/
