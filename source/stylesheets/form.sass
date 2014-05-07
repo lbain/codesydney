@@ -1,6 +1,6 @@
 @import variables
 
-$input-width: 300px
+$input-width: 260px
 
 form
   margin-bottom: 100px
@@ -14,7 +14,7 @@ form
     list-style-type: none
     padding-left: 10px
     input[type=text]
-      width: $input-width - 68
+      max-width: $input-width - 68
 
   textarea
     padding: 5px 10px
@@ -24,7 +24,7 @@ form
     border-radius: 5px
     margin-bottom: 15px
     border: 2px solid $white
-    width: $input-width - 20
+    max-width: $input-width - 20
     &:hover
       border: 2px solid $accent
 
@@ -38,7 +38,7 @@ form
       border-radius: 5px
       margin-bottom: 15px
       border: 2px solid $white
-      width: $input-width - 20
+      max-width: $input-width - 20
       &:hover
         border: 2px solid $accent
 
@@ -47,12 +47,12 @@ form
       color: white
       background-color: $accent
       font-family: $title-font
-      font-size: 15px
+      font-size: 0.75em
       -moz-border-radius: 15px
       border-radius: 5px
       border: 2px solid $white
       padding: 10px 20px
-      width: $input-width
+      max-width: $input-width
       margin-top: 15px
 
   .ss-choice-item-control

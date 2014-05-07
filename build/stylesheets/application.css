@@ -361,46 +361,42 @@ body {
   font-family: "Nobile", sans-serif;
   color: #333333;
   font-size: 20px; }
+  @media (max-width: 900px) {
+    /* line 5, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
+    body {
+      font-size: 18px; } }
 
-/* line 11, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
+/* line 13, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
 a {
   text-decoration: none;
   color: #e57419;
   -webkit-font-smoothing: antialiased;
   text-decoration: none; }
-  /* line 16, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
+  /* line 18, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
   a:hover {
     text-decoration: underline; }
-  /* line 19, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
+  /* line 21, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
   a.text {
     color: #333333; }
-    /* line 21, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
+    /* line 23, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
     a.text:hover {
       text-decoration: none; }
 
-/* line 24, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
+/* line 26, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
 b, strong, bold {
   font-weight: 700; }
 
-/* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
+/* line 30, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
 #main {
   margin: 0 auto;
-  max-width: 800px; }
-  @media (max-width: 900px) {
-    /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
-    #main {
-      margin: 20px; } }
-  @media (max-width: 410px) {
-    /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
-    #main {
-      margin: 0px; } }
+  max-width: 720px; }
 
 /* line 3, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
 nav {
-  width: 720px;
+  max-width: 720px;
   margin: auto;
   text-align: right;
-  padding: 0; }
+  padding-right: 20px; }
   /* line 8, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
   nav a {
     color: #333333; }
@@ -412,7 +408,7 @@ nav {
   nav li {
     display: inline;
     margin-right: 20px;
-    font-size: 15px; }
+    font-size: 0.75em; }
   /* line 20, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
   nav li:last-child {
     margin-right: 0px; }
@@ -424,7 +420,7 @@ header {
   color: white; }
   /* line 8, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/header.sass */
   header section {
-    width: 720px;
+    max-width: 720px;
     margin: auto; }
     /* line 12, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/header.sass */
     header section h1 {
@@ -435,7 +431,7 @@ header {
       color: white;
       background-color: #eb9046;
       font-family: "Nobile", sans-serif;
-      font-size: 15px;
+      font-size: 0.75em;
       -moz-border-radius: 15px;
       border-radius: 5px;
       border: 2px solid white;
@@ -445,14 +441,6 @@ header {
       /* line 27, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/header.sass */
       header section a:hover {
         text-decoration: none; }
-
-/* line 6, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/posts.sass */
-.post {
-  margin-bottom: 50px; }
-  /* line 9, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/posts.sass */
-  .post .published {
-    font-size: 12px;
-    color: #333333; }
 
 /* line 3, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
 .lucy-photo {
@@ -465,27 +453,22 @@ header {
 section .image {
   float: left;
   width: 180px;
-  margin-top: 40px; }
-/* line 14, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+  margin-top: 40px;
+  text-align: center; }
+/* line 15, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
 section .content {
   float: left;
-  width: 520px; }
+  max-width: 520px; }
+@media (max-width: 900px) {
+  /* line 19, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+  section .image, section .content {
+    width: 100%;
+    max-width: 100%; } }
 
-/* line 19, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+/* line 23, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
 iframe .ss-form-title {
   display: none; }
 
-@media (max-width: 900px) {
-  /* line 23, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
-  .personal-info {
-    margin: 60px auto 0px auto; }
-    /* line 25, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
-    .personal-info .profile-pic {
-      width: 250px; }
-    /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
-    .personal-info .connections li {
-      display: block;
-      margin: 15px 0px 0px 0px; } }
 /* line 3, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
 section {
   margin: 0px auto;
@@ -495,51 +478,34 @@ section {
   line-height: 1em;
   font-family: "Crimson Text", sans-serif;
   -webkit-font-smoothing: antialiased; }
-  @media (max-width: 900px) {
-    /* line 3, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
-    section {
-      padding: 20px 30px; } }
-  @media (max-width: 410px) {
-    /* line 3, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
-    section {
-      padding: 20px;
-      font-size: 18px; } }
-  /* line 18, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  /* line 12, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
   section p {
     margin-bottom: 20px;
     line-height: 1.5em; }
-  /* line 22, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  /* line 16, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
   section h1, section h2, section h3, section h4 {
     font-family: "Nobile", sans-serif;
     font-weight: 400;
     line-height: 1.25em;
     margin: 40px 0px 20px; }
-  /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  /* line 22, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
   section h1 {
     font-size: 2.5em; }
-    @media (max-width: 410px) {
-      /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
-      section h1 {
-        font-size: 2em; } }
-  /* line 33, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  /* line 25, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
   section h2 {
     font-size: 1.5em; }
-  /* line 36, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
   section h3 {
     font-size: 1em;
     margin: 20px 0px 0px; }
-  @media (max-width: 410px) {
-    /* line 40, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
-    section h1, section h2, section h3 {
-      margin: 20px 0px 0px; } }
-  /* line 44, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  /* line 32, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
   section ul {
     padding-left: 40px; }
-  /* line 46, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  /* line 34, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
   section li {
     line-height: 1.75em;
     list-style-type: disc; }
-  /* line 51, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
+  /* line 39, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
   section .button:hover {
     background-color: #e57419; }
 
@@ -569,7 +535,7 @@ form {
     padding-left: 10px; }
     /* line 16, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
     form ul input[type=text], form li input[type=text] {
-      width: 232px; }
+      max-width: 192px; }
   /* line 19, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form textarea {
     padding: 5px 10px;
@@ -579,7 +545,7 @@ form {
     border-radius: 5px;
     margin-bottom: 15px;
     border: 2px solid white;
-    width: 280px; }
+    max-width: 240px; }
     /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
     form textarea:hover {
       border: 2px solid #eb9046; }
@@ -592,7 +558,7 @@ form {
     border-radius: 5px;
     margin-bottom: 15px;
     border: 2px solid white;
-    width: 280px; }
+    max-width: 240px; }
     /* line 42, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
     form input[type=text]:hover, form input[type=email]:hover {
       border: 2px solid #eb9046; }
@@ -601,12 +567,12 @@ form {
     color: white;
     background-color: #eb9046;
     font-family: "Nobile", sans-serif;
-    font-size: 15px;
+    font-size: 0.75em;
     -moz-border-radius: 15px;
     border-radius: 5px;
     border: 2px solid white;
     padding: 10px 20px;
-    width: 300px;
+    max-width: 260px;
     margin-top: 15px; }
   /* line 58, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form .ss-choice-item-control {

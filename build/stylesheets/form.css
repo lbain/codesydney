@@ -12,7 +12,7 @@ form {
     padding-left: 10px; }
     /* line 16, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
     form ul input[type=text], form li input[type=text] {
-      width: 232px; }
+      max-width: 192px; }
   /* line 19, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form textarea {
     padding: 5px 10px;
@@ -22,7 +22,7 @@ form {
     border-radius: 5px;
     margin-bottom: 15px;
     border: 2px solid white;
-    width: 280px; }
+    max-width: 240px; }
     /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
     form textarea:hover {
       border: 2px solid #eb9046; }
@@ -35,7 +35,7 @@ form {
     border-radius: 5px;
     margin-bottom: 15px;
     border: 2px solid white;
-    width: 280px; }
+    max-width: 240px; }
     /* line 42, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
     form input[type=text]:hover, form input[type=email]:hover {
       border: 2px solid #eb9046; }
@@ -44,12 +44,12 @@ form {
     color: white;
     background-color: #eb9046;
     font-family: "Nobile", sans-serif;
-    font-size: 15px;
+    font-size: 0.75em;
     -moz-border-radius: 15px;
     border-radius: 5px;
     border: 2px solid white;
     padding: 10px 20px;
-    width: 300px;
+    max-width: 260px;
     margin-top: 15px; }
   /* line 58, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form .ss-choice-item-control {

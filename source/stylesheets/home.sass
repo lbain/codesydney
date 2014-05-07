@@ -11,20 +11,14 @@ section
     float: left
     width: 180px
     margin-top: 40px
+    text-align: center
   .content
     float: left
-    width: $page-width - 200
-
+    max-width: $page-width - 200
+  @include respond(medium)
+    .image, .content
+      width: 100%
+      max-width: 100%
 iframe
   .ss-form-title
     display: none
-
-@include respond(medium)
-  .personal-info
-    margin: 60px auto 0px auto
-    .profile-pic
-      width: 250px
-    .connections
-      li
-        display: block
-        margin: 15px 0px 0px 0px

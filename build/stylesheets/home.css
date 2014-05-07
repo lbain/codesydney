@@ -9,24 +9,18 @@
 section .image {
   float: left;
   width: 180px;
-  margin-top: 40px; }
-/* line 14, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+  margin-top: 40px;
+  text-align: center; }
+/* line 15, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
 section .content {
   float: left;
-  width: 520px; }
+  max-width: 520px; }
+@media (max-width: 900px) {
+  /* line 19, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+  section .image, section .content {
+    width: 100%;
+    max-width: 100%; } }
 
-/* line 19, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+/* line 23, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
 iframe .ss-form-title {
   display: none; }
-
-@media (max-width: 900px) {
-  /* line 23, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
-  .personal-info {
-    margin: 60px auto 0px auto; }
-    /* line 25, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
-    .personal-info .profile-pic {
-      width: 250px; }
-    /* line 28, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
-    .personal-info .connections li {
-      display: block;
-      margin: 15px 0px 0px 0px; } }

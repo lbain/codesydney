@@ -1,9 +1,9 @@
 /* line 3, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
 nav {
-  width: 720px;
+  max-width: 720px;
   margin: auto;
   text-align: right;
-  padding: 0; }
+  padding-right: 20px; }
   /* line 8, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
   nav a {
     color: #333333; }
@@ -15,7 +15,7 @@ nav {
   nav li {
     display: inline;
     margin-right: 20px;
-    font-size: 15px; }
+    font-size: 0.75em; }
   /* line 20, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/nav.sass */
   nav li:last-child {
     margin-right: 0px; }
