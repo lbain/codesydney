@@ -19,7 +19,7 @@
 
     :javascript
       var submitted=false;
-    %iframe#hidden_iframe{name: "hidden_iframe", onload: "if(submitted) {window.location='thank-you-tutors/';}", style: "display:none;"}
+    %iframe#hidden_iframe{name: "hidden_iframe", onload: "if(submitted) {window.location='/thank-you-tutors/';}", style: "display:none;"}
     %form#ss-form{action: "https://docs.google.com/forms/d/1VHcN1_377IIQsekX16JSg9o1Qx8P0Ld-wjFG8UgKuA0/formResponse?embedded=true", method: "post", onsubmit: "submitted=true;", target: "hidden_iframe"}
       %ol.ss-question-list{role: "list", style: "padding-left: 0"}
         .ss-form-question.errorbox-good{role: "listitem"}
