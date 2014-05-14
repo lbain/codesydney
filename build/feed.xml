@@ -4,10 +4,33 @@
   <id>http://codesydney.com/updates</id>
   <link href="http://codesydney.com/updates"/>
   <link href="http://codesydney.com/feed.xml" rel="self"/>
-  <updated>2014-05-02T00:00:00Z</updated>
+  <updated>2014-05-14T00:00:00Z</updated>
   <author>
     <name>Lucy Bain</name>
   </author>
+  <entry>
+    <title>New Location!</title>
+    <link rel="alternate" href="http://codesydney.com/updates/2014/new-location/"/>
+    <id>http://codesydney.com/updates/2014/new-location/</id>
+    <published>2014-05-14T00:00:00Z</published>
+    <updated>2014-05-14T12:37:56+10:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  Thank you to everyone who has signed up - I've been amazed by the response so far! Yesterday we had our 20th registration of interest, more than I ever expected. I'm really excited to learn with all of you and see what we turn this study group into. I learned in my past study group that nothing will go quite as I expect - something that's already started with this one!
+&lt;/p&gt;
+&lt;p&gt;
+  Since there have been so many interested people, I changed the location. My office wouldn't be able to handle 20 people (it could hardly take more than 12), and I'd hate to limit the study group based on my office size. So we will now meet at &lt;a href="https://www.google.com.au/maps/preview?ie=UTF-8&amp;amp;amp;q=Atlassian&amp;amp;amp;fb=1&amp;amp;amp;gl=au&amp;amp;amp;hq=atlassian&amp;amp;amp;hnear=0x6b129838f39a743f:0x3017d681632a850,Sydney+NSW&amp;amp;amp;cid=10370339064813565191&amp;amp;amp;ei=btVyU_K4DNPk8AXm2IC4BQ&amp;amp;amp;ved=0CJwBEPwSMAo"&gt;Atlassian!&lt;/a&gt; As you probably know, Atlassian hosts many meetups, and they were happy to accommodate ours.
+&lt;/p&gt;
+&lt;p&gt;
+  Since I don't work at Atlassian I will need a few Atlassian employees to let us up the elevators and to make sure everything gets cleaned up properly. If you are an Atlassian employee who is willing to help us in this way please contact me.
+&lt;/p&gt;
+&lt;p&gt;
+  Thanks again to everyone who has signed up or spread the word!
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Mark this RSS feed!</title>
     <link rel="alternate" href="http://codesydney.com/updates/2014/save-this-space/"/>
