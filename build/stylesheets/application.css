@@ -577,6 +577,12 @@ form {
   /* line 58, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
   form .ss-choice-item-control {
     padding-right: 10px; }
+  /* line 61, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/form.sass */
+  form .ss-checkbox .ss-choice-label {
+    padding-left: 30px;
+    margin-top: -20px;
+    line-height: 1.25em;
+    display: block; }
 
 /* line 1, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/code.sass */
 pre, code {
