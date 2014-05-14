@@ -109,8 +109,13 @@
         .ss-form-question.errorbox-good{role: "listitem"}
           .ss-item.ss-checkbox{dir: "ltr"}
             .ss-form-entry
-              %input#group_1406700159_1.ss-q-checkbox{name: "entry.1406700159", role: "checkbox", type: "checkbox", value: "Atlassian"}/
-              %span.ss-choice-label I am an Atlassian employee and I am willing to help with the elevators and to make sure everything gets cleaned up properly.
+              %label.ss-q-item-label{for: "entry_2116983156"}
+                .ss-q-title
+                .ss-q-help.ss-secondary-text{dir: "ltr"}
+              .ss-choices{"aria-label" => "Are you an Atlassian employee?  ", role: "group"}
+                .ss-choice-item
+                  %input#group_1406700159_1.ss-q-checkbox{name: "entry.1406700159", role: "checkbox", type: "checkbox", value: "Yes"}/
+                  %span.ss-choice-label I am an Atlassian employee and I am willing to help with the elevators and to make sure everything gets cleaned up properly.
         %input{name: "draftResponse", type: "hidden", value: "[,,\"-1128116732775176250\"]\r\n"}/
         %input{name: "pageHistory", type: "hidden", value: "0"}/
         %input{name: "fbzx", type: "hidden", value: "-1128116732775176250"}/
