@@ -2,8 +2,9 @@
   %section
     %h1
       A Sydney JavaScript and jQuery study group.
-    =link_to 'Sign me up!', '#sign-up', {class: 'button'}
-
+%section.alert
+  %h4
+    The group is currently full, but you can join the waitlist.
 %section
   %div.image
     = image_tag 'study-hat.svg'
@@ -50,9 +51,9 @@
   %div.image
   %div.content
     %a{name: 'sign-up', class: 'text'}
-      %h2 Sign up!
+      %h2 Sign up for the wait list
     %p
-      This is an interest form since I don't have official dates yet.
+      We're full right now, but I'll let you know if spaces open up.
 
     :javascript
       var submitted=false;

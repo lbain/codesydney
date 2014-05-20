@@ -386,7 +386,7 @@ a {
 b, strong, bold {
   font-weight: 700; }
 
-/* line 30, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
+/* line 29, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/application.css.sass */
 #main {
   margin: 0 auto;
   max-width: 720px; }
@@ -468,6 +468,13 @@ section .content {
 /* line 23, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
 iframe .ss-form-title {
   display: none; }
+
+/* line 26, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+.alert {
+  background-color: #ebb946;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px 0px 20px; }
 
 /* line 3, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/content.sass */
 section {

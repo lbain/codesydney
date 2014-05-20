@@ -24,3 +24,10 @@ section .content {
 /* line 23, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
 iframe .ss-form-title {
   display: none; }
+
+/* line 26, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+.alert {
+  background-color: #ebb946;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px 0px 20px; }
