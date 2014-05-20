@@ -4,10 +4,36 @@
   <id>http://codesydney.com/updates</id>
   <link href="http://codesydney.com/updates"/>
   <link href="http://codesydney.com/feed.xml" rel="self"/>
-  <updated>2014-05-14T00:00:00Z</updated>
+  <updated>2014-05-20T00:00:00Z</updated>
   <author>
     <name>Lucy Bain</name>
   </author>
+  <entry>
+    <title>Start Date</title>
+    <link rel="alternate" href="http://codesydney.com/updates/2014/start-date/"/>
+    <id>http://codesydney.com/updates/2014/start-date/</id>
+    <published>2014-05-20T00:00:00Z</published>
+    <updated>2014-05-20T17:18:26+10:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  Hi everyone!
+&lt;/p&gt;
+&lt;p&gt;
+  Previously I wasn't sure about the exact start date, but I've talked with Atlassian since then. I'm now happy to announce that we're scheduled to start on &lt;strong&gt;July 7&lt;/strong&gt;! I've updated the &lt;a href="/schedule"&gt;schedule&lt;/a&gt;, and included the public holidays we'll work around.
+&lt;/p&gt;
+&lt;p&gt;
+  A couple of you have been surprised that it's so far off. This really is the first Monday that's available - I'm currently running another study group for Python, which will be wrapping up in early June, once that's finished I'm heading off on vacation for the last week of June. I promise I'm not neglecting you!
+&lt;/p&gt;
+&lt;p&gt;
+  If you this means you can no longer participate in the group, please let me know (either through email or the comments).
+&lt;/p&gt;
+&lt;p&gt;
+  See you on July 7 - until then, don't forget about the prerequisites!
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>New Location!</title>
     <link rel="alternate" href="http://codesydney.com/updates/2014/new-location/"/>
