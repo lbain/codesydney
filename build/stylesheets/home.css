@@ -27,7 +27,10 @@ iframe .ss-form-title {
 
 /* line 26, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
 .alert {
-  background-color: #ebb946;
+  background-color: #fddb68;
   max-width: 100%;
   text-align: center;
   padding: 10px 0px 20px; }
+  /* line 31, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/home.sass */
+  .alert a {
+    color: #e57419; }
