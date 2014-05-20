@@ -11,7 +11,7 @@ pageable: true
     %p= link_to 'Previous page', prev_page
 - page_articles.each do |article|
   %section
-    %h2= article.title
+    %h2= link_to article.title, article
     %div.date= article.date.strftime('%b %e, %Y')
     = article.body
 - if paginate

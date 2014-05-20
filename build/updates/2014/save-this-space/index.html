@@ -29,12 +29,32 @@
         </li>
       </ul>
     </nav>
-    <p>
-      I'm not going to send out bulk emails to everyone unless it's absolutely required. You can subscribe to this RSS feed on your favourite reader, or use something like <a href="http://ifttt.com">ifttt.com</a> to get them emailed to you.
-    </p>
-    <p>
-      There are also comments enabled for each update. This serves as a kind of email thread as needed. Please let the group know any concerns/questions you have as we go through each week.
-    </p>
+    <section>
+      <h1>Mark this RSS feed!</h1>
+      <p>
+        I'm not going to send out bulk emails to everyone unless it's absolutely required. You can subscribe to this RSS feed on your favourite reader, or use something like <a href="http://ifttt.com">ifttt.com</a> to get them emailed to you.
+      </p>
+      <p>
+        There are also comments enabled for each update. This serves as a kind of email thread as needed. Please let the group know any concerns/questions you have as we go through each week.
+      </p>
+      <div id='disqus_thread'></div>
+      <noscript>
+        Please enable JavaScript to view the
+        <a href='http://disqus.com/?ref_noscript'>comments powered by Disqus.</a>
+      </noscript>
+      <a class='dsq-brlink' href='http://disqus.com'>
+        comments powered by
+        <span class='logo-disqus'>Disqus</span>
+      </a>
+      <script>
+        var disqus_shortname = 'codesydney';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </section>
   </body>
   <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
   <script src='/javascripts/all.js'></script>
@@ -48,3 +68,4 @@
     ga('send', 'pageview');
   </script>
 </html>
+

@@ -21,8 +21,9 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
-  blog.tag_template = "updates/tag.html"
-  blog.calendar_template = "updates/calendar.html"
+  # blog.tag_template = "updates/tag.html"
+  # blog.calendar_template = "updates/calendar.html"
+  blog.layout = "updates"
 
   # Enable pagination
   blog.paginate = true
@@ -60,10 +61,9 @@ set :images_dir, 'images'
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-with_layout :update do
-  page "/update/*"
-end
-
+# with_layout :updates do
+#   page "/updates/*"
+# end
 
 # Proxy pages (http://middlemanapp.com/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
