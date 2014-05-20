@@ -117,6 +117,12 @@ helpers do
   def path_to_link(path)
     '/' << path.sub('.html', '/')
   end
+
+  def full_title(current_page)
+    title = "Code Sydney"
+    title += " - #{current_page.data.title}" if current_page.data.title
+    title
+  end
 end
 
 set :css_dir, 'stylesheets'

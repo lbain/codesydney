@@ -8,7 +8,7 @@
 
     %link{href: "http://fonts.googleapis.com/css?family=Crimson+Text:400,700|Nobile:400,700", rel: "stylesheet", type: "text/css"}
     %link{rel: "alternate", type:"application/rss+xml", title:"RSS 2.0", href:"/feed.xml"}
-    %title= current_page.data.title || "Code Sydney"
+    %title= full_title(current_page)
     = stylesheet_link_tag "application"
     = stylesheet_link_tag "code"
     = javascript_include_tag  "all"
