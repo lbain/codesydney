@@ -2,9 +2,6 @@
   %section
     %h1
       A Sydney JavaScript and jQuery study group.
-%section.alert
-  %h4
-    The group is currently full, but you can #{link_to 'join the waitlist', '#sign-up'}.
 %section
   %div.image
     = image_tag 'study-hat.svg'
@@ -19,7 +16,7 @@
   %div.content
     %h2 Where and when do we meet?
     %p
-      We'll meet at #{link_to 'Atlassian', 'https://www.google.com.au/maps/place/Atlassian/@-33.867265,151.206921,17z/data=!3m1!4b1!4m2!3m1!1s0x6b12ae393a03d8ff:0x8fead86f5e91b507'} once a week on Mondays. We're scheduled to start July 7th.
+      We'll meet at #{link_to 'Atlassian', 'https://www.google.com.au/maps/place/Atlassian/@-33.867265,151.206921,17z/data=!3m1!4b1!4m2!3m1!1s0x6b12ae393a03d8ff:0x8fead86f5e91b507'} Mondays at 6:30pm (please be prompt). The start date is July 7th.
     %p
       I've created the #{link_to 'schedule', '/schedule/'} so we have one project a week. Every 5th week is a catch up week and attending study group is optional. With this schedule the course will take 17 weeks. We will take breaks due to public holidays and the like.
 
@@ -46,83 +43,3 @@
     %h2 Who are you?
     %p
       I'm #{link_to 'Lucy', 'http://www.lucybain.com'}. I'm a Rails dev trying to learn front end development. I'm not very good at sticking with courses on my own, so I'm getting you guys to hold me accountable (thanks!). I love teaching and tutoring - I did a #{link_to 'study group', 'http://lucybain.com/resources/udacity-python-study-group/'} like this one for Udacity's #{link_to 'CS101', 'https://www.udacity.com/course/cs101'} course.
-
-%section
-  %div.image
-  %div.content
-    %a{name: 'sign-up', class: 'text'}
-      %h2 Sign up for the wait list
-    %p
-      We're full right now, but I'll let you know if spaces open up.
-
-    :javascript
-      var submitted=false;
-    %iframe#hidden_iframe{name: "hidden_iframe", onload: "if(submitted) {window.location='thank-you/';}", style: "display:none;"}
-    %form#ss-form{action: "https://docs.google.com/forms/d/1E4DA3gsQcLG-5qSp5HxDdSA93BZzdWwkH04hUCtOGl4/formResponse?embedded=true", method: "post", onsubmit: "submitted=true;", target: "hidden_iframe"}
-      %ol.ss-question-list{role: "list", style: "padding-left: 0"}
-        .ss-form-question.errorbox-good{role: "listitem"}
-          .ss-item.ss-text{dir: "ltr"}
-            %input#entry_1275735517.ss-q-short{"aria-label" => "Name  ", "aria-required" => "true", dir: "auto", name: "entry.1275735517", required: "", title: "", type: "text", value: "", placeholder:"Name"}/
-        .ss-form-question.errorbox-good{role: "listitem"}
-          .ss-item.ss-text{dir: "ltr"}
-            .ss-form-entry
-              %input#entry_1310634786.ss-q-short{"aria-label" => "Email address  ", "aria-required" => "true", dir: "auto", name: "entry.1310634786", required: "", title: "", type: "text", value: "", placeholder: "Email"}/
-        .ss-form-question.errorbox-good{role: "listitem"}
-          .ss-item.ss-radio{dir: "ltr"}
-            .ss-form-entry
-              %label.ss-q-item-label{for: "entry_1622566978"}
-                .ss-q-title
-                  How did you hear about this?
-                .ss-q-help.ss-secondary-text{dir: "ltr"}
-              %ul.ss-choices{"aria-label" => "How did you hear about this?  ", role: "radiogroup"}
-                %li.ss-choice-item
-                  %label
-                    %span.ss-choice-item-control.goog-inline-block
-                      %input#group_867050812_1.ss-q-radio{"aria-label" => "Twitter", name: "entry.867050812", role: "radio", type: "radio", value: "Twitter"}/
-                    %span.ss-choice-label Twitter
-                %li.ss-choice-item
-                  %label
-                    %span.ss-choice-item-control.goog-inline-block
-                      %input#group_867050812_2.ss-q-radio{"aria-label" => "Women Who Code", name: "entry.867050812", role: "radio", type: "radio", value: "Women Who Code"}/
-                    %span.ss-choice-label Women Who Code/Girl Geek Dinners
-                %li.ss-choice-item
-                  %label
-                    %span.ss-choice-item-control.goog-inline-block
-                      %input#group_867050812_3.ss-q-radio{"aria-label" => "Python study group", name: "entry.867050812", role: "radio", type: "radio", value: "Python study group"}/
-                    %span.ss-choice-label Python study group
-                %li.ss-choice-item
-                  %label
-                    %span.ss-choice-item-control.goog-inline-block
-                      %input#group_867050812_3.ss-q-radio{"aria-label" => "Friend", name: "entry.867050812", role: "radio", type: "radio", value: "Friend"}/
-                    %span.ss-choice-label Friend
-                %li.ss-choice-item
-                  %label
-                    %span.ss-choice-item-control.goog-inline-block
-                      %input#group_867050812_4.ss-q-radio{"aria-label" => "RoRO event", name: "entry.867050812", role: "radio", type: "radio", value: "RoRO event"}/
-                    %span.ss-choice-label RoRO event
-                %li.ss-choice-item
-                  %label
-                    %span.ss-choice-item-control.goog-inline-block
-                      %input#group_867050812_3.ss-q-radio.ss-q-other-toggle{name: "entry.867050812", role: "radio", type: "radio", value: "__other_option__"}/
-                  %span.ss-q-other-container.goog-inline-block
-                    %input#entry_867050812_other_option_response.ss-q-other{"aria-label" => "Other", dir: "auto", name: "entry.867050812.other_option_response", type: "text", value: "", placeholder: "Other"}/
-              .error-message
-        .ss-form-question.errorbox-good{role: "listitem"}
-          .ss-item.ss-checkbox{dir: "ltr"}
-            .ss-form-entry
-              %label.ss-q-item-label{for: "entry_2116983156"}
-                .ss-q-title
-                .ss-q-help.ss-secondary-text{dir: "ltr"}
-              .ss-choices{"aria-label" => "Are you an Atlassian employee?  ", role: "group"}
-                .ss-choice-item
-                  %input#group_1406700159_1.ss-q-checkbox{name: "entry.1406700159", role: "checkbox", type: "checkbox", value: "Yes"}/
-                  %span.ss-choice-label I am an Atlassian employee and I am willing to help with the elevators and to make sure everything gets cleaned up properly.
-        %input{name: "draftResponse", type: "hidden", value: "[,,\"-1128116732775176250\"]\r\n"}/
-        %input{name: "pageHistory", type: "hidden", value: "0"}/
-        %input{name: "fbzx", type: "hidden", value: "-1128116732775176250"}/
-        .ss-item.ss-navigate
-          %table#navigation-table
-            %tbody
-              %tr
-                %td#navigation-buttons.ss-form-entry.goog-inline-block{dir: "ltr"}
-                  %input#ss-submit.button{name: "submit", type: "submit", value: "Sign me up!"}/

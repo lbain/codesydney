@@ -4,10 +4,30 @@
   <id>http://codesydney.com/updates</id>
   <link href="http://codesydney.com/updates"/>
   <link href="http://codesydney.com/feed.xml" rel="self"/>
-  <updated>2014-06-09T00:00:00Z</updated>
+  <updated>2014-07-01T00:00:00Z</updated>
   <author>
     <name>Lucy Bain</name>
   </author>
+  <entry>
+    <title>Getting started with Hipchat</title>
+    <link rel="alternate" href="http://codesydney.com/updates/hipcaht/"/>
+    <id>http://codesydney.com/updates/hipcaht/</id>
+    <published>2014-07-01T00:00:00Z</published>
+    <updated>2014-07-13T13:42:28+10:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  Atlassian's &lt;a href="http://www.hipchat.com"&gt;HipChat&lt;/a&gt; now has free group chat - we'll use it to communicate between meetings. You can use this &lt;a href="https://www.hipchat.com/g3boxeZ8J"&gt;sign up link&lt;/a&gt; to join the Code Sydney group.
+&lt;/p&gt;
+&lt;p&gt;
+  Use HipChat to ask questions, offer support, and stay in contact between meetings. Try not to give away the answer, but offer hints and tips - we're all here to learn!
+&lt;/p&gt;
+&lt;p&gt;
+  As always, leave a comment on this post or contact me if you have any problems getting started.
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Four weeks to go</title>
     <link rel="alternate" href="http://codesydney.com/updates/four-weeks/"/>
