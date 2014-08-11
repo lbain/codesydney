@@ -5,7 +5,7 @@
 * Andrew
 * Angie
 * Ben
-* Caspar
+* [Caspar](https://github.com/caspark/codesydney-js)
 * Daphne
 * Jenny
 * Julia
