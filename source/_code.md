@@ -3,10 +3,9 @@
 * Alexander
 * Amy
 * Andrew
-* Angie
 * Ben
 * [Caspar](https://github.com/caspark/codesydney-js)
-* Daphne
+* [Daphne](https://github.com/daphnechong/javascript-course)
 * Jenny
 * Julia
 * Levine
@@ -15,11 +14,10 @@
 * [Lucy](https://github.com/lbain/code-sydney-work)
 * Mel
 * Nadia
-* Niall
+* [Niall](https://github.com/NiallConnaughton/js-course)
 * Nick
 * Paola
 * Qing
-* Sarooban
 * Symphony
 * Tanya
 * Tony
