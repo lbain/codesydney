@@ -2,7 +2,7 @@
 * Alex
 * Alexander
 * Amy
-* Andrew
+* [Andrew](https://github.com/drewylui/code-sydney)
 * Ben
 * [Caspar](https://github.com/caspark/codesydney-js)
 * [Daphne](https://github.com/daphnechong/javascript-course)
