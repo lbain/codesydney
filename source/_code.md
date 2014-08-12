@@ -17,7 +17,7 @@
 * [Niall](https://github.com/NiallConnaughton/js-course)
 * Nick
 * Paola
-* Qing
+* [Qing](https://github.com/wiserfirst/codesydney)
 * Symphony
 * Tanya
 * Tony
