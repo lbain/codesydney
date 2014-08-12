@@ -1,8 +1,8 @@
 * Aisyah
 * Alex
-* Alexander
+* [Alex C](https://bitbucket.org/acourtis/codesydney)
 * Amy
-* Andrew
+* [Andrew](https://github.com/drewylui/code-sydney)
 * Ben
 * [Caspar](https://github.com/caspark/codesydney-js)
 * [Daphne](https://github.com/daphnechong/javascript-course)
@@ -17,7 +17,7 @@
 * [Niall](https://github.com/NiallConnaughton/js-course)
 * Nick
 * Paola
-* Qing
+* [Qing](https://github.com/wiserfirst/codesydney)
 * Symphony
 * Tanya
 * Tony
