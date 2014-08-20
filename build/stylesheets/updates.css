@@ -1,11 +1,1 @@
-/* line 1, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/updates.sass */
-#disqus_thread {
-  margin-top: 50px;
-  padding-top: 15px;
-  border-top: 2px solid;
-  border-color: #eaedee;
-  border-color: rgba(0, 39, 59, 0.08); }
-
-/* line 8, /Users/lucy/Documents/code/personal/codesydney/source/stylesheets/updates.sass */
-.date {
-  font-size: 0.75em; }
+#disqus_thread{margin-top:50px;padding-top:15px;border-top:2px solid;border-color:#eaedee;border-color:rgba(0,39,59,0.08)}.date{font-size:0.75em}
