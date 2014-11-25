@@ -1,1 +1,0 @@
-$.each($(".lesson a"),function(t,o){var e=$.trim($(o).find(".lesson-title h3").text()),n="http://www.theodinproject.com"+$(o).attr("href"),i="%li #{link_to('"+e+"', '"+n+"')}";console.log(i)});
