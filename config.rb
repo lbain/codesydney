@@ -5,32 +5,6 @@
 
 # Time.zone = "UTC"
 
-activate :blog do |blog|
-  # This will add a prefix to all links, template references and source paths
-  blog.prefix = "updates"
-
-  blog.permalink = "{title}.html"
-  # Matcher for blog source files
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
-  # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "blog/layout"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = "{year}.html"
-  # blog.month_link = "{year}/{month}.html"
-  # blog.day_link = "{year}/{month}/{day}.html"
-  # blog.default_extension = ".markdown"
-
-  # blog.tag_template = "updates/tag.html"
-  # blog.calendar_template = "updates/calendar.html"
-  blog.layout = "updates"
-
-  # Enable pagination
-  blog.paginate = true
-  blog.per_page = 10
-  blog.page_link = "page/{num}"
-end
-
 # page "/feed.xml", layout: false
 
 set :css_dir, 'stylesheets'
@@ -61,9 +35,9 @@ set :images_dir, 'images'
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-# with_layout :updates do
-#   page "/updates/*"
-# end
+with_layout 'js-2014-winter/layout' do
+  page "/js-2014-winter/*"
+end
 
 # Proxy pages (http://middlemanapp.com/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -94,7 +68,6 @@ helpers do
   end
 
   def active_url?(current_url, nav_url)
-    return current_url.start_with? nav_url unless nav_url == '/'
     current_url == nav_url
   end
 
