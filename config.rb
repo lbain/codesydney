@@ -61,9 +61,9 @@ set :images_dir, 'images'
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-# with_layout :updates do
-#   page "/updates/*"
-# end
+with_layout '2014-js' do
+  page "/2014-js/*"
+end
 
 # Proxy pages (http://middlemanapp.com/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
